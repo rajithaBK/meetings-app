@@ -73,7 +73,6 @@ function logout() {
 
 <main>
   <!-- <button on:click={() => logout()}>logout</button> -->
-  <h1>Login</h1>
   <button on:click={() => handleLogin('Google')}>Login with Google</button>
   <button on:click={() => handleLogin('Microsoft')}>Login with Microsoft</button>
 </main>
@@ -84,14 +83,11 @@ function logout() {
 <style>
   main {
     display: flex;
+    background-color:aquamarine;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-  }
-
-  h1 {
-    margin-bottom: 1rem;
   }
 
   button {
